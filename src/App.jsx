@@ -6,7 +6,7 @@ function App() {
   const [resp, setResp] = useState([])
 
   const required = async () => {
-    const retorno = await axios.get('https://resultados.tse.jus.br/oficial/app/87-es2015.51685ccc0b9070bde473.js')
+    const retorno = await axios.get('https://resultados.tse.jus.br/oficial/ele2022/545/dados-simplificados/br/br-c0001-e000545-r.json')
     return retorno
   }
 
