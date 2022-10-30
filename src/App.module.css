@@ -1,0 +1,66 @@
+.tableContainer {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.table {
+  background-color: white;
+  width: 90%;
+  overflow:hidden;
+  border-collapse: collapse;
+  border: solid #ccc 1px;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+}
+
+.trTitle {
+  height: 40px;
+  font-weight: bold;
+}
+
+.trBody {
+  height: 50px;
+}
+
+.background {
+  background-color: white;
+  padding-inline-start: 10px;
+  border: solid 1px black;
+
+}
+
+.iconDelet {
+  margin-top: 8px;
+  background-color: white;
+}
+
+.modalStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  padding: 15px;
+  margin: 20%;
+  gap: 15px;
+  border-radius: 15px;
+}
+
+.buttonContainer{
+  background-color: #000000;
+  display: flex;
+  gap: 15px;
+}
+
+.buttonModal {
+  Width: 164px;
+  Height: 52px;
+  background-color: #FFDD00;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
