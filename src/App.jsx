@@ -10,14 +10,14 @@ function App() {
     return retorno
   }
 
+  console.log(resp)
+
   useEffect(() => {
     setInterval(async () => {
       const retorno = await required().then((response) => response.data.cand)
       setResp(retorno)  
-    }, 30000)
+    }, 10000)
   }, [])
-
-  console.log(resp)
   
   return (
     <div className={styles.tableContainer}>
